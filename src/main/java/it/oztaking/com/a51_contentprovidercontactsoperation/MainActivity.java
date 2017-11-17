@@ -49,10 +49,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             while (cursor.moveToNext()) {
                 String contact_id = cursor.getString(0);
                 System.out.println("contact_id:" + contact_id);
+
+                //2.根据contact_id在data表中查询minitype_id和data1的内容；
+                Uri uri1 = Uri.parse("content://com.android.contacts/data");
+                Cursor cursor1 = getContentResolver().query(uri1, new String[]{"data1","mimetype"},"raw_contact_id=?",new String[]{contact_id}, null);
+                if (cursor1 != null){
+                    while (cursor1.moveToNext()){
+                        String data1 = cursor1.getString(0);
+                        String minetype = cursor1.getString(1);
+                        System.out.println("data1:"+data1+"---"+"minitype:"+minetype);
+                    }
+                }
             }
         }
-        //2.根据contact_id在data表中查询minitype_id和data1的内容；
-
     }
 
     public void InsertContacts() {
