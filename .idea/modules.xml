@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../01-ContentProvider-SMSListener.iml" filepath="$PROJECT_DIR$/../01-ContentProvider-SMSListener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../02-databasedemo/02-databasedemo.iml" filepath="$PROJECT_DIR$/../02-databasedemo/02-databasedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../03-queryAnotherAppDataBase/03-queryAnotherAppDataBase.iml" filepath="$PROJECT_DIR$/../03-queryAnotherAppDataBase/03-queryAnotherAppDataBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../50_contentprovider_smsbk/50_contentprovider_smsbk.iml" filepath="$PROJECT_DIR$/../50_contentprovider_smsbk/50_contentprovider_smsbk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/51_contentprovidercontactsoperation.iml" filepath="$PROJECT_DIR$/51_contentprovidercontactsoperation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../app/app.iml" filepath="$PROJECT_DIR$/../app/app.iml" />
+    </modules>
+  </component>
+</project>

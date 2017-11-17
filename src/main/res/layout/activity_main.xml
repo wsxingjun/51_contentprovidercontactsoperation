@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="it.oztaking.com.a51_contentprovidercontactsoperation.MainActivity">
+
+   <Button
+       android:id="@+id/bt_QueryContacts"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="查询联系人"/>
+   <Button
+       android:id="@+id/bt_InsertContacts"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="插入一条联系人"/>
+
+</LinearLayout>
