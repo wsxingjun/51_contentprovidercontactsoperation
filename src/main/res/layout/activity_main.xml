@@ -13,6 +13,24 @@
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:text="查询联系人"/>
+
+   <EditText
+       android:paddingTop="20dp"
+       android:id="@+id/et_name"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="请输入名字"/>
+   <EditText
+       android:id="@+id/et_phoneNum"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="请输入电话"/>
+   <EditText
+       android:id="@+id/et_emaiAddress"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="请输入邮箱地址"/>
+
    <Button
        android:id="@+id/bt_InsertContacts"
        android:layout_width="match_parent"
